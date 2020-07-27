@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DotNetGame.Entities.Developer">
+    <Position X="3.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACICAAQQAAAACAAABBAAQQAAAAAAAAAAAAAAQAABA=</HashCode>
+      <FileName>Developer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_devSkills" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="DotNetGame.Entities.Player">
+    <Position X="1.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAASIoAAEAAAAQAAAAhAAAQAAAgAAAABAAAAAAAIAAA=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_lesDevelopers" />
+      <Field Name="_lesSchools" />
+      <Field Name="_lesProjects" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="DotNetGame.Entities.Project">
+    <Position X="6.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACIEAAAAAAoAAAAABAAAQAAAAAAAAEAAAAAAAAgQA=</HashCode>
+      <FileName>Project.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_requiredSkills" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="DotNetGame.Entities.School">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACIAAAAAAAAAAAAABAAAQAEgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>School.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_trainings" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="DotNetGame.Entities.Skill">
+    <Position X="5.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAgAAAEAABAAQAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Skill.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DotNetGame.Entities.Training">
+    <Position X="10.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAgAAAEAABAAAAAAAAAAAAAAIAAAAAAAAI=</HashCode>
+      <FileName>Training.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_improvedSkills" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="DotNetGame.Entities.Game">
+    <Position X="1.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAACAAAAAAkAAAAAQAAAAAgAAAAgAAAAwEA=</HashCode>
+      <FileName>Game.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_connectedPlayers" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
